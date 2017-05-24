@@ -1,0 +1,16 @@
+.Draggable {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    padding: 10px;
+    left: calc(50% - 380px);
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #333;
+    z-index: 1;
+}
+
+.Draggable--moving {
+    cursor: move;
+}
